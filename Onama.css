@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("images/PozadinaZaStranicu.jpg");
+    background-repeat: repeat;
+}
+
+section.odlomak{
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 50px;
+    font-size: 16pt;
+}
+
+#naslov{
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-family: 'Coda Caption', sans-serif;
+}
+#podnaslov{
+    padding-top: 50px;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+#main1{
+    position: absolute;
+    top: 400px;
+    padding-bottom: 100px;
+}
+
+#sidebar{
+    position: absolute;
+    top: 245px;
+    width: 20%;
+    text-align: center;
+    left: 1125px; 
+    position: fixed;
+}
+
+img{
+    width: 100%;
+}
+
+#sidebartext{
+    padding-top: 20px;
+}
+
+#navslika{  
+    width: 100%;
+    height: 250px; 
+    margin: 0;   
+}
+
+
+a:hover{
+    background-color:  yellow;
+}
+
+footer{
+    color: yellowgreen;
+    text-align: left;
+    position: absolute;
+    top: 690px;
+    z-index: 2;
+    position: fixed;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    width: 25%;
+}
+
+a{
+    display: block;
+    background-color: darkgoldenrod;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.container a{
+    color: darkblue;
+}
+
+article{
+    color: white;
+}
+
+h3{
+    color: white;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+div a{
+    text-decoration: none;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+iframe{
+    height: 300px;
+    position: absolute;
+    top: 620px;
+    left: 50px;
+}
+
+section{
+    font-family: 'Yusei Magic', sans-serif;
+}

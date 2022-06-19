@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("images/PozadinaZaStranicu.jpg");
+    background-repeat: repeat;
+    color: white;
+}
+
+#strelica{
+    max-height: 7%;
+    max-width: 7%;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+h3{color: red;
+    font-family: 'Coda Caption', sans-serif;}
+
+img.slike{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 50%;
+    min-height: 50%;
+
+}
+
+article, figure{
+    color: white;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.container{
+    margin-top: 300px;
+}
+
+div a:link{color: yellow;}
+div a:hover{color: orangered;}
+div a:visited{color: orange;}
+div a:active{color: orchid;}
+
+div{
+    text-align: center;
+}
+
+.col-xl-4{
+    padding-top: 50px;
+}
+
+#col-md-6{
+    padding-top: 100px;
+}
+
+#col-12{
+    padding-top: 50px;
+}
+
+#sekcija{
+    float: right;
+    color: yellow;
+    margin-right: 50px;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+section a{
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+h4{
+    color: red;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+i{
+    margin: 10px 0px 0px 10px;
+    color: yellow;
+}
+

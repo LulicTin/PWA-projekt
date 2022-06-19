@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html id="ukupno">
+    <head>
+        <title>Kontakt</title>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="kontakt,obrazac">
+        <meta name="description" content="stranica za kontakt"/>
+        <meta name="author" content="Tin Lulić">
+        <meta name="generator" content="Visual Studio Code">
+        <link rel="icon" href="images/IkonaZaStranicu.ico" type="image/x-icon">
+        <link rel="stylesheet" href="Unos.css" type="text/css">
+        <script
+src="https://kit.fontawesome.com/b05e340512.js"
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="jquery-1.11.0.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+<script src="validacija.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Yusei+Magic&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <a href="Naslovnica.html"><i class="fas fa-arrow-alt-circle-left fa-4x"></i></a>
+        <form name="forma_vijesti" action="skripta.php" method="post" enctype="multipart/form-data">  
+            <label for="naslov">Unesite naslov vijesti</label><br>
+            <input type="text" name="naslov" id="naslov"><br><br>
+            <label for="sazetak">Unesite kratki sazetak</label><br>
+            <textarea name="sazetak" id="sazetak" cols="30" rows="10"></textarea><br><br>
+            <label for="tekst">Unesite tekst clanka</label><br>
+            <textarea name="tekst" id="tekst" cols="30" rows="10"></textarea><br><br>
+            <label for="kategorija">Odaberite planet</label><br>
+            <select name="kategorija" id="kategorija">
+                <option value="o" disabled selected>Molimo izaberite planet</option>
+                <option value="1">Zemlja</option>
+                <option value="2">Mars</option>
+                <option value="3">Venera</option>
+                <option value="4">Jupiter</option>
+                <option value="5">Saturn</option>
+                <option value="6">Neptun</option>
+                <option value="7">Merkur</option>
+                <option value="8">Uran</option>
+            </select>
+            <br><br>
+            <label>Odaberite sliku</label><br>
+            <input type="file" name="slika"><br><br>
+            <label for="arhiva">Zelite li sakriti novost?</label><br>
+            <input type="checkbox" name="arhiva" id="arhiva"><br><br><br><br>
+            <input type="submit" name="submit" value="Posalji"><br><br>
+        </form>
+        <br>
+        
+        <footer><h4>Tin Lulić</h4><h5>0246094240</h5></footer>
+    </body>
+</html>

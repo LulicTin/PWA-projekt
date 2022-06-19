@@ -1,0 +1,39 @@
+footer{
+    color: yellowgreen;
+    text-align: left;
+    position: absolute;
+    top: 690px;
+    z-index: 2;
+    position: fixed;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+body{
+    background-image: url("images/PozadinaZaStranicu.jpg");
+    background-repeat: repeat;
+    color: white;
+    margin: 0 auto;
+}
+
+i{
+    margin: 10px 0px 0px 10px;
+    color: yellow;
+    max-height: 7%;
+    max-width: 7%;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: white;
+}
+
+article{
+    color: white;
+}

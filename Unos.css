@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("images/PozadinaZaStranicu.jpg");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-repeat: repeat ;
+    padding: 0;
+    margin: 0;
+}
+
+#zaglavlje{
+    color: yellowgreen;
+}
+
+footer{
+    color: yellowgreen;
+    text-align: left;
+    position: absolute;
+    top: 690px;
+    z-index: 2;
+    position: fixed;
+}
+
+a:link{color: yellow;}
+a:hover{color: orangered;}
+a:visited{color: orange;}
+a:active{color: orchid;}
+
+.tekst{
+    color: white;
+}
+
+textarea{
+    background-color: white;
+}
+
+select{
+    background-color: white;
+}
+
+input{
+    background-color: white;
+    height: 30px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+textarea{
+    border-radius: 10px;
+}
+
+form{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+#navigacija{
+    z-index: 1;
+    position: fixed;
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    background-color: darkblue;
+}
+
+#navslika{
+    width: 100%;
+    position: relative;
+    top: 0px;
+}
+
+li.jedan{
+    position: relative;
+    top: 40px;
+}
+
+#lista1{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+a.jedan1{
+    padding: 40px 100px 40px 100px;
+    display: block;
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-size: 16px;
+}
+
+h4, h5{
+    padding: 0;
+    margin: 0;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+nav a:hover{
+    background-color:  rgb(2, 2, 112);
+}
+
+label{
+    color: yellow;
+}
+
+select{
+    border-radius: 10px;
+    height: 30px;
+}
+
+iframe{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    left: 800px;
+    top: 150px;
+}
+
+i{
+    margin: 10px 0px 0px 10px;
+    color: yellow;
+}
